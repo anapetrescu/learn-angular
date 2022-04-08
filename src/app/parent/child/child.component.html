@@ -1,0 +1,7 @@
+<li *ngFor="let person of students">
+    {{person.firstName + " " + person.lastName + ", " + person.age}} 
+</li>
+<input placeholder="First name" [(ngModel)]="first_name">
+<input placeholder="Last name" [(ngModel)]="last_name">
+<input placeholder="Age" [(ngModel)]="age">
+<button (click)="addStudent()">Add student</button>

@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<h4>- The above title is from an interpolation and is updated through [(ngModel)] -</h4>
+<input [(ngModel)]="title"/>
+<button (click)="inputChange()">Click to check if the title is Learn Angular</button>
+<p *ngIf="isInputValueLearnAngular">The title is Learn Angular 
+    (this message use showed only if the variable isInputValueLearnAngular from *ngIf is true)
+</p>
+<b>Below we have another 2 exemple of interpolation and one how to use *ngFor</b>
+<p>The sum of 1 + 1 is {{1 + 1}}.</p>
+<b>List of students</b>
+<button (click)="getStudents()">Get students</button>
+<app-child [students]="middleSchool" (newStudent)="addPerson($event)"></app-child>
+<app-child [students]="highSchool" (newStudent)="addPerson($event)"></app-child>
+<app-child [students]="university" (newStudent)="addPerson($event)"></app-child>
+<a [routerLink]="['/second-page']">Go to second page</a>
+

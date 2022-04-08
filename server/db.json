@@ -1,0 +1,38 @@
+{
+    "middleSchool": [
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 12
+        },
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 13
+        }
+    ],
+    "highSchool": [
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 16
+        },
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 17
+        }
+    ],
+    "university": [
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 20
+        },
+        {
+            "firstName": "Ana",
+            "lastName": "Petrescu",
+            "age": 19
+        }
+    ]
+}
